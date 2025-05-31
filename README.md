@@ -5,3 +5,6 @@
 
 ## Демонстрация
 [![asciinema demo](https://asciinema.org/a/YourRecordingID.svg)](https://asciinema.org/a/4KmhLmCuUY5HG7gm5gTUK7Rlw)
+
+## Демо калькулятор
+[![asciinema demo](https://asciinema.org/a/YourRecordingID.svg)]( https://asciinema.org/a/eHP9iwFJZFasvrfN3X2hvPmpF)
