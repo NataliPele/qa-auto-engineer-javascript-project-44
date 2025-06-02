@@ -5,9 +5,9 @@ const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 function generateRound() {
-  const num1 = Math.floor(Math.random() * 50);
-  const num2 = Math.floor(Math.random() * 50);
-  const operator = operators[Math.floor(Math.random() * operators.length)];
+  const num1 = Math.floor(Math.random() * 50); // NOSONAR 
+  const num2 = Math.floor(Math.random() * 50); // NOSONAR 
+  const operator = operators[Math.floor(Math.random() * operators.length)]; // NOSONAR 
 
   const question = `${num1} ${operator} ${num2}`;
 
