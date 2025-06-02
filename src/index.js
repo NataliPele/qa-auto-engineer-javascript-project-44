@@ -13,6 +13,7 @@ export default function runGame(gameDescription, generateRound) {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ').trim();
 
+    //Проверка ответа юзера
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);

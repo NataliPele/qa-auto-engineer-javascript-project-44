@@ -4,7 +4,10 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NataliPele_qa-auto-engineer-javascript-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NataliPele_qa-auto-engineer-javascript-project-44)
 
 ## Демонстрация
-[![asciinema demo](https://asciinema.org/a/YourRecordingID.svg)](https://asciinema.org/a/4KmhLmCuUY5HG7gm5gTUK7Rlw)
+[![asciinema demo](https://asciinema.org/a/4KmhLmCuUY5HG7gm5gTUK7Rlw.svg)](https://asciinema.org/a/4KmhLmCuUY5HG7gm5gTUK7Rlw)
 
 ## Демо калькулятор
-[![asciinema demo](https://asciinema.org/a/YourRecordingID.svg)]( https://asciinema.org/a/eHP9iwFJZFasvrfN3X2hvPmpF)
+[![asciinema demo](https://asciinema.org/a/eHP9iwFJZFasvrfN3X2hvPmpF.svg)]( https://asciinema.org/a/eHP9iwFJZFasvrfN3X2hvPmpF)
+
+## НОД — демонстрация
+[![asciinema demo](https://asciinema.org/a/WsRPEPyOlScl2GHsS5sMUDb04.svg)](https://asciinema.org/a/WsRPEPyOlScl2GHsS5sMUDb04)
