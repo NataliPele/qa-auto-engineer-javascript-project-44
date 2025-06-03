@@ -12,8 +12,8 @@ function getGCD(a, b) {
 }
 
 function generateRound() {
-  const num1 = Math.floor(Math.random() * 100) + 1;
-  const num2 = Math.floor(Math.random() * 100) + 1;
+  const num1 = Math.floor(Math.random() * 100) + 1; // NOSONAR
+  const num2 = Math.floor(Math.random() * 100) + 1; // NOSONAR
   const question = `${num1} ${num2}`;
   const correctAnswer = String(getGCD(num1, num2));
   return [question, correctAnswer];
