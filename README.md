@@ -14,3 +14,6 @@
 
 ## Демо прогрессия
 [![asciinema demo](https://asciinema.org/a/qSvTqTRwPk8fQy0SV9EJX5ykA.svg)](https://asciinema.org/a/qSvTqTRwPk8fQy0SV9EJX5ykA)
+
+## Демо простое число
+[![asciinema demo](https://asciinema.org/a/iwsthxPKzg7RIkD3c0eIkRkfo.svg)](https://asciinema.org/a/iwsthxPKzg7RIkD3c0eIkRkfo)
