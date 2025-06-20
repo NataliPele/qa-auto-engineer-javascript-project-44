@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runEvenGame from '../src/games/isEven.js'
+import runGame from '../src/index.js';
+import generateRound from '../src/games/isEven.js';
 
-runEvenGame()
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+runGame(description, generateRound);
