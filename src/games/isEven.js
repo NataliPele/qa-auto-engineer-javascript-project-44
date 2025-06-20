@@ -10,7 +10,7 @@ export default function runEvenGame() {
   const roundsCount = 3
 
   for (let i = 0; i < roundsCount; i++) {
-    const number = Math.floor(Math.random() * 100); // NOSONAR
+    const number = Math.floor(Math.random() * 100) // NOSONAR
     console.log(`Question: ${number}`)
     const answer = readlineSync.question('Your answer: ').toLowerCase()
 
@@ -19,7 +19,7 @@ export default function runEvenGame() {
     if (answer !== 'yes' && answer !== 'no') {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
-      return;
+      return
     }
 
     if (answer !== correctAnswer) {

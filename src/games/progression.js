@@ -3,11 +3,11 @@ import runGame from '../index.js'
 const description = 'What number is missing in the progression?'
 
 const getProgression = (start, step, length) => {
-    const result = []
-    for (let i = 0; i < length; i += 1) {
-        result.push(start + i * step)
-    }
-    return result
+  const result = []
+  for (let i = 0; i < length; i += 1) {
+    result.push(start + i * step)
+  }
+  return result
 }
 
 const generateRound = () => {
