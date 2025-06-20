@@ -1,27 +1,27 @@
-import readlineSync from 'readline-sync';
-import greetUser from './cli.js';
+import readlineSync from 'readline-sync'
+import greetUser from './cli.js'
 
-const roundsCount = 3;
+const roundsCount = 3
 
 export default function runGame(gameDescription, generateRound) {
-  const name = greetUser();
-  console.log(gameDescription);
+  const name = greetUser()
+  console.log(gameDescription)
 
   for (let i = 0; i < roundsCount; i++) {
-    const [question, correctAnswer] = generateRound();
+    const [question, correctAnswer] = generateRound()
 
-    console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question('Your answer: ').trim();
+    console.log(`Question: ${question}`)
+    const userAnswer = readlineSync.question('Your answer: ').trim()
 
-    //Проверка ответа юзера
+    // Проверка ответа юзера
     if (userAnswer !== correctAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${name}!`);
-      return;
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
+      console.log(`Let's try again, ${name}!`)
+      return
     }
 
-    console.log('Correct!');
+    console.log('Correct!')
   }
 
-  console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`)
 }

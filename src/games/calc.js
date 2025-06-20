@@ -1,32 +1,32 @@
-import runGame from '../index.js';
+import runGame from '../index.js'
 
-const description = 'What is the result of the expression?';
+const description = 'What is the result of the expression?'
 
-const operators = ['+', '-', '*'];
+const operators = ['+', '-', '*']
 
 function generateRound() {
-  const num1 = Math.floor(Math.random() * 50); // NOSONAR 
-  const num2 = Math.floor(Math.random() * 50); // NOSONAR 
-  const operator = operators[Math.floor(Math.random() * operators.length)]; // NOSONAR 
+  const num1 = Math.floor(Math.random() * 50) // NOSONAR
+  const num2 = Math.floor(Math.random() * 50) // NOSONAR
+  const operator = operators[Math.floor(Math.random() * operators.length)] // NOSONAR
 
-  const question = `${num1} ${operator} ${num2}`;
+  const question = `${num1} ${operator} ${num2}`
 
-  let correctAnswer;
+  let correctAnswer
   switch (operator) {
     case '+':
-      correctAnswer = num1 + num2;
-      break;
+      correctAnswer = num1 + num2
+      break
     case '-':
-      correctAnswer = num1 - num2;
-      break;
+      correctAnswer = num1 - num2
+      break
     case '*':
-      correctAnswer = num1 * num2;
-      break;
+      correctAnswer = num1 * num2
+      break
     default:
-      throw new Error(`Unknown operator: ${operator}`);
+      throw new Error(`Unknown operator: ${operator}`)
   }
 
-  return [question, String(correctAnswer)];
+  return [question, String(correctAnswer)]
 }
 
-export default () => runGame(description, generateRound);
+export default () => runGame(description, generateRound)
